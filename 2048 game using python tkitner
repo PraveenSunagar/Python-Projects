@@ -1,4 +1,4 @@
-#import the library
+
 import tkinter as tk
 import random
 
