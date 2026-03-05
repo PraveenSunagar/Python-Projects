@@ -7,7 +7,7 @@ import random
 # Initializing the pygame
 pygame.init()
 
-# Frames per second
+# Frames
 clock = pygame.time.Clock()
 
 
