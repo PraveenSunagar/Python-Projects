@@ -7,7 +7,6 @@ import random
 # Initializing the pygame
 pygame.init()
 
-# Frames
 clock = pygame.time.Clock()
 
 
