@@ -1,16 +1,11 @@
-# find more python project source code at Codewithcurious.com
 # Importing the library
 from turtle import *
 
-
-# function for position
 def my_goto(x, y):
     penup()
     goto(x, y)
     pendown()
 
-
-# Function for drawing eyes
 def eyes():
     fillcolor("#ffffff")
     begin_fill()
@@ -29,7 +24,6 @@ def eyes():
     end_fill()
 
 
-# Function for drawing whisker
 def whisker():
     my_goto(-32, 135)
     seth(165)
@@ -50,8 +44,6 @@ def whisker():
     seth(-13)
     fd(60)
 
-
-# Function for drawing mouth
 def mouth():
     my_goto(5, 148)
     seth(270)
@@ -61,8 +53,6 @@ def mouth():
     seth(230)
     circle(-120, 100)
 
-
-# Function for drawing band
 def band():
     fillcolor("#e70010")
     begin_fill()
@@ -77,8 +67,6 @@ def band():
     circle(-5, 90)
     end_fill()
 
-
-# Function for drawing nose
 def nose():
     my_goto(-10, 158)
     seth(315)
@@ -87,8 +75,6 @@ def nose():
     circle(20)
     end_fill()
 
-
-# Functin for drawing black eyes
 def black_eyes():
     seth(0)
     my_goto(-20, 195)
@@ -103,7 +89,6 @@ def black_eyes():
     circle(-10, 150)
     pensize(3)
 
-    # for drawing the white circle inside
     my_goto(-17, 200)
     seth(0)
     fillcolor("#ffffff")
@@ -113,7 +98,7 @@ def black_eyes():
     my_goto(0, 0)
 
 
-# Function for drawing face
+
 def face():
     fd(183)
     lt(45)
@@ -140,7 +125,6 @@ def face():
     fd(64)
 
 
-# Function for drawing head
 def head():
     penup()
     circle(150, 40)
@@ -150,8 +134,6 @@ def head():
     circle(150, 280)
     end_fill()
 
-
-# Combining all functions to one
 def Doremon():
     head()
     band()
@@ -160,7 +142,7 @@ def Doremon():
     mouth()
     whisker()
 
-    # For drawing the body outline
+   
     my_goto(0, 0)
     seth(0)
     penup()
@@ -171,7 +153,6 @@ def Doremon():
     seth(70)
     circle(-30, 270)
 
-    # For filling the body color
     fillcolor("#00a0de")
     begin_fill()
     seth(230)
