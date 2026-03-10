@@ -2,28 +2,22 @@ from future.moves import tkinter
 import math
 
 
-# To provide functionalities
 def click(val):
     e = entry.get()  # getting the value
     ans = " "
 
     try:
-        # To clear the last inserted text
         if val == "C":
             e = e[0:len(e) - 1]  # deleting the last entered value
             entry.delete(0, "end")
             entry.insert(0, e)
             return
-
-        # To delete everything
         elif val == "CE":
             entry.delete(0, "end")
 
-        # Square root
         elif val == "√":
             ans = math.sqrt(eval(e))
 
-        # pi value
         elif val == "π":
             ans = math.pi
 
