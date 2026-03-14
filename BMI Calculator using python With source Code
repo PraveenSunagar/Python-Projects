@@ -24,7 +24,6 @@ def bmi():
     else:
         label1.config(text="Health is at risk!\n Need to lose")
 
-
 top = tkinter.Label(root, text="BMI CALCULATOR", font=("arial", 25, "bold"), width=25, bd=5, bg="white")
 top.place(x=0, y=0)
 
