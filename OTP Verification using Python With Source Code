@@ -3,6 +3,7 @@ import random
 from future.moves import tkinter
 from tkinter import messagebox
 
+
 root = tkinter.Tk()
 root.title("OTP Verification")
 root.geometry("600x550")
